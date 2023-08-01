@@ -1,5 +1,7 @@
 Q1. Why do we call Python as a general purpose and high-level programming language?
 
+ans: it can be used to create a variety of different programs and isn't specialized for any specific problems.      This versatility, along with its beginner-friendliness, has made it one of the most-used programming languages today.
+
 Q2. Why is Python called a dynamically typed language?
 
 Q3. List some pros and cons of Python programming language?
