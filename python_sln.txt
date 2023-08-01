@@ -81,6 +81,7 @@ else:
   print(f"{b} is odd")
 
 Q18. What are boolean operator?
+ans:  True , False , not , and , or are the only built-in Python Boolean operators.
 
 Q19. What will the output of the following?
 ```
