@@ -1,87 +1,41 @@
 Q1. Why do we call Python as a general purpose and high-level programming language?
-
-ans: it can be used to create a variety of different programs and isn't specialized for any specific problems.      This versatility, along with its beginner-friendliness, has made it one of the most-used programming languages today.
-
+ans: 
 Q2. Why is Python called a dynamically typed language?
-ans: Dynamic typing means that the type of the variable is determined only during runtime.
-  
-Q3. List some pros and cons of Python programming language?
-ans: Pros:
-        1. Multi-paradigm approach 
-        2. Easy to use
-        3. Easy to integrate
-        4. High library support
 
-    Cons: 1. Slow speed of execution compared to C,C++
-          2. Absence from mobile computing and browsers
+Q3. List some pros and cons of Python programming language?
 
 Q4. In what all domains can we use Python?
-ans: 1.Graphic design, image processing applications, Games, and 2.Scientific/ computational Applications
-3.Web frameworks and applications
-4.Database Access
-5.Language Development
-6.Prototyping
-7.Software Development
-8.Data Science and Machine Learning
-9.Scripting
 
 Q5. What are variable and how can we declare them?
- ans: A variable is a symbolic name that is a reference or pointer to an object. Once an object is assigned to a variable, you can refer to the object by that name.  A = 24
 
 Q6. How can we take an input from the user in Python?
-ans:By using input( ) function.
 
 Q7. What is the default datatype of the value that has been taken as an input using input() function?
-ans: string.
 
 Q8. What is type casting?
-ans: Type casting means changing the datatype of the variable. We can only type casting the datatype having higher bit value to the lower bit value.
 
 Q9. Can we take more than one input from the user using single input() function? If yes, how? If no, why?
-ans: a, b, c = input("Enter three values: ").split(",")
-print("Total number of students: ", a)
-print("Number of boys is : ", b)
-print("Number of girls is : ", c)
-print()
 
 Q10. What are keywords?
-ans: Keywords in Python are reserved words that can not be used as a variable name, function name, or any other identifier.
 
 Q11. Can we use keywords as a variable? Support your answer with reason.
-ans: Yes we can but we shoudn't as it will override the properties of the keyword.
 
 Q12. What is indentation? What's the use of indentaion in Python?
-ans:  Indentation is the whitespace used in Python. Indentation is used to create block of statement.
 
 Q13. How can we throw some output in Python?
-ans: by  Using print() function.
 
 Q14. What are operators in Python?
-ans:  Symbols or keywords used to perform certain operations on values or variable are known as operators. There are different types of operators like.
-
-1.Arithmetic operators 
-2.Comparison Operators
-3.Logical Operators
-4.Bitwise Operators
-5.Assignment Operators
 
 Q15. What is difference between / and // operators?
-ans:  / is used for float division and // is used of floor (integer) division.
 
 Q16. Write a code that gives following as an output.
+```
 iNeuroniNeuroniNeuroniNeuron
-
-ans: "iNeuron"*3
+```
 
 Q17. Write a code to take a number as an input from the user and check if the number is odd or even.
-ans: a = float(input("Enter a number: "))
-if a%2 == 0:
-  print(f"{a} is even")
-else:
-  print(f"{b} is odd")
 
 Q18. What are boolean operator?
-ans:  True , False , not , and , or are the only built-in Python Boolean operators.
 
 Q19. What will the output of the following?
 ```
@@ -92,54 +46,23 @@ Q19. What will the output of the following?
 True and False and True
 
 1 or 0 or 0
-
-ans: 1 or 0 -> 1
-0 and 0 -> 0
-True and False and True -> False
-1 or 0 or 0 -> 1
+```
 
 Q20. What are conditional statements in Python?
-ans: In large projects we have to control the flow of execution of our program and we want to execute some set of statements only if the given condition is satisfied, and a different set of statements when it’s not satisfied.
 
 Q21. What is use of 'if', 'elif' and 'else' keywords?
-ans: . if is the first condition check for the condition.
-
-if "if" is False then elif's condition is checked.
-
-else is checked when all the upper condition fails.
 
 Q22. Write a code to take the age of person as an input and if age >= 18 display "I can vote". If age is < 18 display "I can't vote".
-ans: age = int(input("Enter your age: "))
-      if age >=18:
-print(" i can vote ")
-else:
-print("i can't vote")
 
 Q23. Write a code that displays the sum of all the even numbers from the given list.
+```
 numbers = [12, 75, 150, 180, 145, 525, 50]
+```
 
-ans: numbers = [12, 75, 150, 180, 145, 525, 50]
-add = 0
-for num in numbers:
-  if num%2 == 0:
-    add = add+num
-  else:
-    continue
-print(add) 
 
 Q24. Write a code to take 3 numbers as an input from the user and display the greatest no as output.
 
-ans: x, y, z = input("Enter 3 numbers seprated by comma: ").split(",")
-if int(x) > int(y) and int(x) > int(z):
-  print(f"{x} is greatest")
-elif int(y) > int(z):
-  print(f"{y} is greatest")
-else:
-  print(f"{z} is greatest")
-
-
 Q25. Write a program to display only those numbers from a list that satisfy the following conditions
-
 
 - The number must be divisible by five
 
@@ -148,15 +71,4 @@ Q25. Write a program to display only those numbers from a list that satisfy the 
 - If the number is greater than 500, then stop the loop
 ```
 numbers = [12, 75, 150, 180, 145, 525, 50]
-
-
-ans: numbers = [12, 75, 150, 180, 145, 525, 50]
-lst = []
-for num in numbers:
-  if num > 150:
-    if num > 500:
-      break
-  elif num%5==0:
-    lst.append(num) 
-
-print(lst)
+```
